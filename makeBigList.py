@@ -5,5 +5,3 @@ def makeBigList(size):
         thelist.append(random.randint(0,size))
     return thelist
     
-thelist=makeBigList(10000)
-print str(thelist).strip('[]')
